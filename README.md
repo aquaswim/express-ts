@@ -1,8 +1,10 @@
-# My Awesome App
+# Express TS
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
+Express ❤️ Typescript with ability to add typing to express's `Request` and `Response`
 
-this is boilerplate for typescript project
+## How to add typing to `Request` or `Response`
+TBA
 
 ## How to start
 1. Clone this repo
