@@ -1,0 +1,32 @@
+{
+  "name": "my-awesome-app",
+  "version": "0.0.1",
+  "description": "My Awesome app description",
+  "scripts": {
+    "start": "node dist",
+    "dev": "ts-node-dev --rs --respawn src",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "pretest": "npm run lint"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Bayu Setiawan",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^14.14.37",
+    "gts": "^3.1.0",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
