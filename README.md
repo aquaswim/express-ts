@@ -4,7 +4,8 @@
 Express ❤️ Typescript with ability to add typing to express's `Request` and `Response`
 
 ## How to add typing to `Request` or `Response`
-TBA
+
+You can see the code in `@types/express/index.d.ts`.
 
 ## How to start
 1. Clone this repo

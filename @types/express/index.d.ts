@@ -1,3 +1,4 @@
+import * as express from 'express';
 /**
  * Extend all express internal stuff
  * https://stackoverflow.com/a/61950149
